@@ -6,104 +6,134 @@
   <link rel="stylesheet" href="CSS/reset.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous">
 </head>
 
 <body>
-<h1>Mónica Martí Gómez</h1>
-<!-- el enlace hasta la carpeta curriculum, la carpeta donde esta situado index -->
-<img src="FotoMonica.jpg"
-      alt="Foto de Mónica Martí"
-      width= "150">
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-      <p>
-      Me gusta blablabla... <br>
-      Pero creo que es mejor que me conozcas en  <a href="https://es.linkedin.com/in/mónica-martí-879b4a73">Mi página en Linkedin</a><br>
-    </p>
+      <a class="navbar-brand" href="#">Mónica Martí Gómez</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"> <a href="#">Datos personales</a></li>
+            <li><a href="#Expeciencia profesional">Expeciencia profesional</a></li>
+            <li><a href="#Habilidades y conocimientos">Habilidades y conocimientos</a></li>
+            <li><a href="#Perfiles sociales">Perfiles sociales</a></li>
+          </ul>
+        </div>
+      </div>
+       </nav>
+      <div class="container">
+        <!-- el enlace hasta la carpeta curriculum, la carpeta donde esta situado index -->
+        <img src="FotoMonica.jpg"
+              alt="Foto de Mónica Martí"
+              width= "150">
 
-<h2>Datos personales</h2>
-<ul>
-  <li><strong>Edad:</strong> 23 años</li>
-  <li><strong>Dirección 1:</strong>Calle Alcalá nº396, C.P: 28027, Madrid</li>
-  <li><strong>Dirección 2:</strong>Plaza de la Constitución nº24, C.P 46270, Villanueva de Castellón, Valencia</li>
-  <li><strong>Teléfono:</strong>+34 652 24 94 86</li>
-  <li><strong>D.N.I:</strong>73590612-L</li>
-  <li><strong>e-mail:</strong>eme7monica@gmail.com</li>
-</ul>
+              <p>
+              Me gusta blablabla... <br>
+              Pero creo que es mejor que me conozcas en  <a href="https://es.linkedin.com/in/mónica-martí-879b4a73">Mi página en Linkedin</a><br>
+            </p>
 
-<hr>
-
-<h2>Experiencia profesional</h2>
- <table>
-  <tr>
-         <td><strong>Empresa / Oranización </strong></td>
-         <td><strong>Título</strong></td>
-         <td><strong>Localización</strong></td>
-         <td><strong>Desde / Hasta </strong></td>
-  </tr>
-
-  <tr>
-         <td>Unió Musical el Xúquer </td>
-         <td>Profesora de música </td>
-         <td>Sumacarcer, Valencia </td>
-         <td>Septiembre 2015 / Febrero 2016 </td>
-     </tr>
-
-     <tr>
-            <td>Escuela de patinaje </td>
-            <td>Monitora </td>
-            <td>Castelló de la Ribera, Valencia </td>
-            <td>Septiembre 2015 / Junio 2016 </td>
-       </tr>
-
-      </table>
-
-      <hr>
-
-      <h2>Habilidades y conocimientos</h2>
-      <ul>
-          <li><strong>Sistemas de información geomática:</strong> ArcGIS, ArcMap, ArcGIS Server, ArcGIS Online</li>
-          <li><strong>Otros programas:</strong> Microsoft Excel, Microsoft Office</li>
-          <li>habilidades</li>
-          <li>mas habilidades</li>
+        <h2 id="Datos personales">Datos personales</h2>
+        <ul>
+          <li><strong>Edad:</strong> 23 años</li>
+          <li><strong>Dirección 1:</strong>Calle Alcalá nº396, C.P: 28027, Madrid</li>
+          <li><strong>Dirección 2:</strong>Plaza de la Constitución nº24, C.P 46270, Villanueva de Castellón, Valencia</li>
+          <li><strong>Teléfono:</strong>+34 652 24 94 86</li>
+          <li><strong>D.N.I:</strong>73590612-L</li>
+          <li><strong>e-mail:</strong>eme7monica@gmail.com</li>
         </ul>
 
+        <hr>
 
-<hr>
-      <h2>Educación</h2>
-      <table>
-       <tr>
-              <td><strong>Título </strong></td>
-              <td><strong>Entidad</strong></td>
-              <td><strong>Promoción</strong></td>
-       </tr>
-       <tr>
-              <td>Estudiante de Master GIS España </td>
-              <td>ESRI España</td>
-              <td>2017</td>
+        <h2 id="Experiencia profesional"> Experiencia profesional</h2>
+         <table>
+          <tr>
+                 <td><strong>Empresa / Oranización </strong></td>
+                 <td><strong>Título</strong></td>
+                 <td><strong>Localización</strong></td>
+                 <td><strong>Desde / Hasta </strong></td>
           </tr>
 
           <tr>
-                 <td>último curso del grado en Ingeniería Geomática y Topografía </td>
-                 <td>Vysoká škola báňská - Technická univerzita Ostrava, VŠB-TUO</td>
-                 <td>2016</td>
+                 <td>Unió Musical el Xúquer </td>
+                 <td>Profesora de música </td>
+                 <td>Sumacarcer, Valencia </td>
+                 <td>Septiembre 2015 / Febrero 2016 </td>
              </tr>
-          <tr>
-                 <td>Grado en Ingeniería Geomática y Topografía </td>
-                 <td>UPV Universidad Politécnica de Valencia</td>
-                 <td>2016</td>
-             </tr>
+
              <tr>
-                    <td>Grado profesional de música</td>
-                    <td>Conservatorio "Mestre Vert"</td>
-                    <td>2013</td>
-                </tr>
+                    <td>Escuela de patinaje </td>
+                    <td>Monitora </td>
+                    <td>Castelló de la Ribera, Valencia </td>
+                    <td>Septiembre 2015 / Junio 2016 </td>
+               </tr>
 
-      </table>
+              </table>
 
-<hr>
-<h2>Perfiles sociales</h2>
-<a href="https://es.linkedin.com/in/mónica-martí-879b4a73">Linkedin</a><br>
-<a href="https://github.com/EmeSiete">GitHub</a><br>
+              <hr>
 
-</body>
+              <h2 id="Habilidades y conocimientos">Habilidades y conocimientos</h2>
+              <ul>
+                  <li><strong>Sistemas de información geomática:</strong> ArcGIS, ArcMap, ArcGIS Server, ArcGIS Online</li>
+                  <li><strong>Otros programas:</strong> Microsoft Excel, Microsoft Office</li>
+                  <li>habilidades</li>
+                  <li>mas habilidades</li>
+                </ul>
+
+
+        <hr>
+              <h2 id="Educación">Educación</h2>
+              <table>
+               <tr>
+                      <td><strong>Título </strong></td>
+                      <td><strong>Entidad</strong></td>
+                      <td><strong>Promoción</strong></td>
+               </tr>
+               <tr>
+                      <td>Estudiante de Master GIS España </td>
+                      <td>ESRI España</td>
+                      <td>2017</td>
+                  </tr>
+
+                  <tr>
+                         <td>último curso del grado en Ingeniería Geomática y Topografía </td>
+                         <td>Vysoká škola báňská - Technická univerzita Ostrava, VŠB-TUO</td>
+                         <td>2016</td>
+                     </tr>
+                  <tr>
+                         <td>Grado en Ingeniería Geomática y Topografía </td>
+                         <td>UPV Universidad Politécnica de Valencia</td>
+                         <td>2016</td>
+                     </tr>
+                     <tr>
+                            <td>Grado profesional de música</td>
+                            <td>Conservatorio "Mestre Vert"</td>
+                            <td>2013</td>
+                        </tr>
+
+              </table>
+
+        <hr>
+        <h2 id="Perfiles sociales">Perfiles sociales</h2>
+        <a href="https://es.linkedin.com/in/mónica-martí-879b4a73">Linkedin</a><br>
+        <a href="https://github.com/EmeSiete">GitHub</a><br>
+
+        <hr>
+        <h2 id="Contacto">Contacto</h2>
+</div>
+        </body>
+
 </html>
